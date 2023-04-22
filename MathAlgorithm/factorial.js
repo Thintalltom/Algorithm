@@ -11,7 +11,7 @@ function factorial(n) {
     let factor = 1 
     for (let i = 2; i <= n; i++) // i is intialize to 2 because 1 is a known factor 
     {
-        factor = factor * i
+        factor = factor * i// to get factor simplay say factor multplied by i
     }
     return factor
 }
